@@ -161,7 +161,7 @@ public class AscensionPage {
     }
 
     public void homeClick() {
-        // Check if the key exists in the elements map before accessing its properties
+        // Check if the key exists in the elements map before accessing its properties.
         if (elements.containsKey("homeButton")) {
             String id = elements.get("homeButton").getId();
             driver.findElement(By.id(id)).click();
